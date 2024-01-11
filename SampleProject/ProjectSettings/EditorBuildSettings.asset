@@ -32,9 +32,9 @@ EditorBuildSettings:
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: a68f851ea77061e4bad16c4c303927ee,
       type: 2}
-    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 9ecc762b6d1ea47caa729243cdaebf98,
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: f53e4be8d62d54440a2e6ed788bd8e22,
       type: 2}
-    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 81705aa6c7a844907a61c145fa77d8a0,
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 626f81ef4ffa24c5e887f23d3bb933db,
       type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 1f6a25f14504a49ad8c3568db87b6326,
       type: 2}
