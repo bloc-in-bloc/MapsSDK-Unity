@@ -5013,6 +5013,7 @@ GameObject:
   - component: {fileID: 2026101507}
   - component: {fileID: 2026101509}
   - component: {fileID: 2026101508}
+  - component: {fileID: 2026101510}
   m_Layer: 0
   m_Name: Map
   m_TagString: Untagged
@@ -5039,8 +5040,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3, y: 0.105, z: 3}
-  m_Center: {x: 0, y: 0.0525, z: 0}
+  m_Size: {x: 3, y: 0.23040183, z: 3}
+  m_Center: {x: 0, y: 0.115200914, z: 0}
 --- !u!114 &2026101499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5079,12 +5080,12 @@ MonoBehaviour:
   _center:
     _latitude: 47.2708792255874
     _longitude: -1.61309098286145
-  _zoomLevel: 20
+  _zoomLevel: 17.16
   _minimumZoomLevel: 1
   _maximumZoomLevel: 20
   _mapTerrainType: 0
-  _mapShape: 1
-  _localMapDimension: {x: 1, y: 1}
+  _mapShape: 0
+  _localMapDimension: {x: 3, y: 3}
   _localMapRadius: 1.5
   _localMapBaseHeight: 0.1
   _elevationScale: 1
@@ -5099,6 +5100,7 @@ MonoBehaviour:
   _textureTileLayers:
     _list:
     - {fileID: 2026101509}
+    - {fileID: 2026101510}
   _elevationTileLayers:
     _list:
     - {fileID: 2026101508}
@@ -5440,13 +5442,27 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2026101495}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a1e12696951834ff4ab692f908e9af74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _opacity: 1
+  _opacity: 0.453
   url: http://wxs.ign.fr/essentiels/geoportail/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=ORTHOIMAGERY.ORTHOPHOTOS&TILEMATRIXSET=PM&STYLE=normal&FORMAT=image/jpeg
+--- !u!114 &2026101510
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026101495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69d5a38472b3a4a03931907520d6d17d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _opacity: 1
+  url: https://cdn.jsdelivr.net/gh/bloc-in-bloc/iTowns2-sample-data@add-cog-sample/cog/orvault.tif
 --- !u!1 &2047487681
 GameObject:
   m_ObjectHideFlags: 0
